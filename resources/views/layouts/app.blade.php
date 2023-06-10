@@ -15,6 +15,7 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    <script src="https://kit.fontawesome.com/e107cfffb1.js" crossorigin="anonymous"></script>
 
     <!-- Styles -->
     <link href="{{ asset('css/samuraimart.css') }}" rel="stylesheet">
@@ -75,7 +76,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="py-4 mb-5">
             @yield('content')
         </main>
     </div>
