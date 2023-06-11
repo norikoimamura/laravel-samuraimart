@@ -13,4 +13,10 @@ class Product extends Model
     {
         return $this->belongsTo('App\Models\Category');
     }
+
+    
+    public function reviews()
+    {
+        return $this->hasMany('App\Models\Review');
+    }
 }
